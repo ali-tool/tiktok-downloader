@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Slideshow Downloader - Download TikTok Photos Without Watermark</title>
+    <meta name="description" content="Free online TikTok Slideshow Downloader. Download TikTok photo slides, carousels, HD images and audio sound without watermark fast and easy.">
+    <meta name="keywords" content="tiktok slideshow downloader, download tiktok photos, tiktok photo downloader, save tiktok slides, tiktok carousel downloader, tiktok photo saver no watermark, download tiktok sound">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="cyRPljdEUuxHxd1GoazJJqO22UWpVOW1ndMmJthKF3k" />
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        .container { max-width: 850px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { font-size: 2.2rem; color: #111; margin-bottom: 10px; }
+        p.subtitle { color: #666; font-size: 1.1rem; }
+        .downloader-box { background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 40px; }
+        .input-group { display: flex; gap: 10px; flex-wrap: wrap; }
+        input[type="text"] { flex: 1; min-width: 280px; padding: 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; outline: none; transition: border 0.3s; }
+        input[type="text"]:focus { border-color: #fe2c55; }
+        button { background-color: #fe2c55; color: #fff; border: none; padding: 15px 30px; border-radius: 8px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background 0.3s; }
+        button:hover { background-color: #e02648; }
+        #result { margin-top: 25px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; }
+        .photo-card { background: #fff; border: 1px solid #eee; border-radius: 8px; overflow: hidden; text-align: center; padding-bottom: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .photo-card img { width: 100%; height: 250px; object-fit: cover; }
+        .dl-btn { display: inline-block; margin-top: 10px; padding: 8px 15px; background: #25f4ee; color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; font-size: 0.9rem; }
+        .how-it-works, .seo-content { background: #fff; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        .how-it-works h2, .seo-content h2 { text-align: center; margin-bottom: 25px; font-size: 1.6rem; color: #111; }
+        .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .step-card { text-align: center; padding: 15px; }
+        .step-num { background: #fe2c55; color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin: 0 auto 10px; }
+        .faq-item { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        .faq-item h3 { font-size: 1.1rem; color: #fe2c55; margin-bottom: 8px; }
+        .faq-item p { font-size: 0.95rem; color: #555; }
+        footer { text-align: center; color: #888; font-size: 0.85rem; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TikTok Slideshow Downloader</h1>
+            <p class="subtitle">Download TikTok Photo Carousel & Slides in HD Without Watermark</p>
+        </header>
+
+        <section class="downloader-box">
+            <div class="input-group">
+                <input type="text" id="tiktokUrl" placeholder="Paste TikTok slideshow link here...">
+                <button onclick="downloadSlideshow()">Download</button>
+            </div>
+            <div id="result"></div>
+        </section>
+
+        <section class="how-it-works">
+            <h2>How to Download TikTok Slideshow Photos?</h2>
+            <div class="steps">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <h3>Copy Link</h3>
+                    <p>Open TikTok app, find the photo slideshow post, and copy its link.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <h3>Paste URL</h3>
+                    <p>Paste the copied link into the input box above and click Download.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <h3>Save Images</h3>
+                    <p>Get all original high-quality photos instantly without any watermark.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seo-content">
+            <h2>Best Online TikTok Photo Carousel Downloader</h2>
+            <p style="margin-bottom: 20px; color: #555;">
+                Our free TikTok Slideshow Downloader allows you to extract and download high-resolution photos and image carousels directly from TikTok posts without watermarks. Whether you want to save slide decks, image posts, or background sound files, our tool processes links fast and securely on desktop, iOS, and Android browsers.
+            </p>
+
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>What is a TikTok Slideshow Downloader?</h3>
+                <p>It is a web-based utility designed to download individual HD photos from TikTok carousel posts without adding any watermark or reducing image quality.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is it free to download TikTok photos?</h3>
+                <p>Yes, this tool is 100% free to use. You do not need to register an account or install mobile applications.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I download TikTok slideshows on iPhone or Android?</h3>
+                <p>Yes! Our downloader works seamlessly across all modern web browsers including Safari, Google Chrome, Firefox, and Microsoft Edge.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Does this tool save photos without watermark?</h3>
+                <p>Absolutely. Every extracted photo is saved in its original source file format without logos, overlays, or watermarks.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; TikTok Slideshow Downloader - Free Online Tool</p>
+        </footer>
+    </div>
+
+    <script>
+        async function downloadSlideshow() {
+            const urlInput = document.getElementById('tiktokUrl').value.trim();
+            const resultDiv = document.getElementById('result');
+
+            if (!urlInput) {
+                alert('Please paste a valid TikTok link!');
+                return;
+            }
+
+            resultDiv.innerHTML = '<p style="text-align:center; color:#fe2c55; font-weight:bold;">Fetching slideshow photos, please wait...</p>';
+
+            try {
+                const response = await fetch('https://www.tikwm.com/api/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams({ url: urlInput, count: 12, cursor: 0, web: 1 })
+                });
+                
+                const res = await response.json();
+
+                if (res.code === 0 && res.data) {
+                    const data = res.data;
+                    
+                    if (data.images && data.images.length > 0) {
+                        let html = `<h3 style="margin-bottom:15px;">Found ${data.images.length} Photos:</h3><div class="gallery">`;
+                        data.images.forEach((imgUrl, index) => {
+                            html += `
+                                <div class="photo-card">
+                                    <img src="${imgUrl}" alt="TikTok Slide ${index + 1}">
+                                    <a href="${imgUrl}" target="_blank" download="tiktok_slide_${index + 1}.jpg" class="dl-btn">Download Image</a>
+                                </div>
+                            `;
+                        });
+                        html += '</div>';
+                        resultDiv.innerHTML = html;
+                    } 
+                    else if (data.play) {
+                        resultDiv.innerHTML = `
+                            <div style="text-align:center; margin-top:20px;">
+                                <p style="margin-bottom:10px; font-weight:bold;">This link is a video post!</p>
+                                <a href="${data.play}" target="_blank" class="dl-btn" style="background:#fe2c55; color:#fff; padding:12px 25px;">Download Video (No Watermark)</a>
+                            </div>
+                        `;
+                    }
+                } else {
+                    resultDiv.innerHTML = `<p style="text-align:center; color:red;">${res.msg || 'Could not fetch media. Ensure link is valid.'}</p>`;
+                }
+            } catch (error) {
+                console.error(error);
+                resultDiv.innerHTML = '<p style="text-align:center; color:red;">Connection error. Please try again.</p>';
+            }
+        }
+    </script>
+
+    <!-- Adsterra Social Bar Script -->
+    <script src="https://pl31592204.profitableratecpmnetwork.com/db/f7/83/dbf783263d1ce079f938a8393bd855c6.js"></script>
+</body>
+</html>
